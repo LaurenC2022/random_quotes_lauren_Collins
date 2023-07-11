@@ -24,11 +24,16 @@ const SearchParams = () => {
     <div>
       <p id="text">{quote}</p>
       <h2 id="author">{author}</h2>
-
-      <button onClick={requestquoteDataObj} id="new-quote">
-        New Quote
-      </button>
-      <SendTweet tweetPackage={tweetPackage} />
+      <div id="buttonsContainer">
+        <button
+          className="btn btn-success"
+          onClick={requestquoteDataObj}
+          id="new-quote"
+        >
+          New Quote
+        </button>
+        <SendTweet tweetPackage={tweetPackage} />
+      </div>
     </div>
   );
 };
