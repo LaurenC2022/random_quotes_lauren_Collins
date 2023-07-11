@@ -34,7 +34,7 @@ Users should be able to:
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
 
 Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
@@ -69,15 +69,17 @@ To see how you can add code snippets, see below:
 ```html
 <h1>Some HTML code I'm proud of</h1>
 ```
+
 ```css
 .proud-of-this-css {
   color: papayawhip;
 }
 ```
+
 ```js
 const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+  console.log("🎉");
+};
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
@@ -86,11 +88,12 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ### Continued development
 
-1. All buttons and links should be refactored for accessibility 
-2. Style needs improvement. Tweet button and New Quote buttons need to be placed somewhere in their div. All fonts should be responsive and check contrast, and spacing of letters for accessibility. 
-3. create and add favicon 
-4. add loading emoji when data is being searched for 
-5. Select new background and color scheme 
+1. All buttons and links should be refactored for accessibility
+2. Style needs improvement. Tweet button and New Quote buttons need to be placed somewhere in their div. All fonts should be responsive and check contrast, and spacing of letters for accessibility.
+3. create and add favicon
+4. add loading emoji when data is being searched for
+5. Select new background and color scheme
+6. On first load several quotes with authors are fetched and stored in an array so the page can display a new quote faster when button is fetched
 
 **Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 

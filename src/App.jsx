@@ -14,6 +14,16 @@ const App = () => {
       </div>
       <footer>
         <p>
+          <a
+            href="https://github.com/LaurenC2022/random_quotes_lauren_Collins.git"
+            target="_blank"
+            tabindex="1"
+            accesskey="Q"
+          >
+            Link to Source Code
+          </a>
+          <br />
+          <br />
           Inspirational quotes provided by <br />
           <a href="https://github.com/lukePeavey/quotable" target="_blank">
             Quotable API, by Luke Peavey on GitHub.
