@@ -54,24 +54,6 @@ const App = () => {
             Free Code Camp's Front End Development Libraries certification
             course.
           </a>
-          <br />
-          <br />
-          The website you are looking at includes test cases for Free Code
-          Camp's certificate. This website should be viewed on a desktop or
-          laptop computer at full screen as specified by{" "}
-          <a
-            href="https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-random-quote-machine"
-            target="_blank"
-          >
-            Free Code Camp's instructions
-          </a>{" "}
-          (User Story #11) to pass all test cases. The branch used to make this
-          website is different from the branch seen on my portfolio:{" "}
-          <a href="https://laurenCollins.dev" target="_blank">
-            www.LaurenCollins.dev.
-          </a>{" "}
-          Both branches are from the same repository, "Source Code" linked
-          above.
         </p>
       </footer>
     </div>
