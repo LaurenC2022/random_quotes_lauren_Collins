@@ -49,14 +49,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
+- Bootstrap
 - [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
@@ -88,7 +82,7 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ### Continued development
 
-1. All buttons and links should be refactored for accessibility
+1. All buttons and links should be refactored for accessibility, accessiblity first on all aspects of website
 2. Style needs improvement. Tweet button and New Quote buttons need to be placed somewhere in their div. All fonts should be responsive and check contrast, and spacing of letters for accessibility.
 3. create and add favicon
 4. add loading emoji when data is being searched for

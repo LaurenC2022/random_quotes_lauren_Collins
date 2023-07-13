@@ -5,11 +5,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
   return (
-    <div>
+    <div className="container">
       <header>
         <h1>Random Quote Machine</h1>
       </header>
-      <div id="quote-box">
+      <div id="quote-box" className="container">
         <SearchParams />
       </div>
       <footer>

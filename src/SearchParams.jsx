@@ -21,18 +21,30 @@ const SearchParams = () => {
   }
 
   return (
-    <div>
-      <p id="text">{quote}</p>
-      <h2 id="author">{author}</h2>
-      <div id="buttonsContainer">
-        <button
-          className="btn btn-success"
-          onClick={requestquoteDataObj}
-          id="new-quote"
-        >
-          New Quote
-        </button>
-        <SendTweet tweetPackage={tweetPackage} />
+    <div className="padding">
+      <div className="container padding">
+        <p className="text-center" id="text">
+          {quote}
+        </p>
+        <h2 className="text-center" id="author">
+          -{author}
+        </h2>
+      </div>
+      <div id="buttonsContainer" className="container">
+        <div className="row">
+          <div className="col">
+            <button
+              className="btn btn-success"
+              onClick={requestquoteDataObj}
+              id="new-quote"
+            >
+              New Quote
+            </button>
+          </div>
+          <div className="col">
+            <SendTweet tweetPackage={tweetPackage} />
+          </div>
+        </div>
       </div>
     </div>
   );

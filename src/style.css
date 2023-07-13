@@ -1,22 +1,22 @@
-html {
+/* html {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
 }
 /* this sets the box element's sizes to include boarder, padding and content */
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 /* To not disorient users when navigating page.  */
-* {
+/* * {
   scroll-behavior: smooth;
-}
+} */
 
 /* this removed preset margins and padding, so I can set them myself, 
         and avoid unnessisary struggle/ waiste time working with defaults */
-* {
+/* * {
   margin: 0;
   padding: 0;
-}
+} */
 
 /* Class to hide words from visibility and add descriptions for screen readers only*/
 .sr-only {
@@ -36,41 +36,44 @@ header {
   display: flex;
   text-align: center;
   justify-content: center;
-}
-
-header {
-  font-size: min(max(1rem, 4vw), 22px);
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 #quote-box {
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: center;
-  height: 500px;
-  width: 50vw;
+  width: 50vw; */
+  height: 250px;
   background-color: #c4ece0;
   border: 2px solid purple;
   border-radius: 10px;
-  font-size: min(max(1rem, 4vw), 22px);
+  /* padding: 10px; */
+  /* font-size: min(max(1rem, 4vw), 22px); */
 }
 
-#buttonsContainer {
-  display: inline-flex;
+.padding {
+  padding: 20px;
 }
+
+/* #buttonsContainer {
+  display: inline-flex;
+} */
 
 body {
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   background-color: #81a69b;
-  background-image: url(http://pets-images.dev-apis.com/pets/wallpaperB.jpg);
-  margin: 0;
+  background-image: url(http://pets-images.dev-apis.com/pets/wallpaperC.jpg);
+  /* margin: 0; */
 }
 
 #tweet-quote {
   background-color: white;
-  border-radius: 10px;
+  /* border-radius: 10px;
   padding: 5px;
   margin-left: 100px;
-  font-size: small;
+  font-size: small; */
 }
